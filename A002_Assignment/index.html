@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bạn muốn hẹn hò</title>
+    <link rel="icon" type=" image/png" href="/assets/fav/fav.ico" />
+  </head>
+
+  <body style="background-color: aquamarine">
+    <form>
+      <header>
+        <h1>Phiếu đăng kí điền thông tin</h1>
+      </header>
+      <img
+        src="https://www.nippon.com/en/ncommon/contents/japan-data/1802545/1802545.jpg"
+        alt="giao diện đăng nhập"
+        width="750"
+        height="600"
+      />
+      <br />
+      <div>
+        <span>
+          <!-- <label for="name">Họ và tên</label>
+          <input type="text" id="name" /> -->
+          <input
+            type="text"
+            autocomplete="off"
+            required
+            name="name"
+            placeholder="Họ và tên"
+          />
+          <span>Giới tính: </span>
+          <input name="gender" type="radio" id="answer-1" />
+          <label for="answer-1">Nam</label>
+          <input name="gender" type="radio" id="answer-2" />
+          <label for="answer-2">Nữ</label>
+        </span>
+      </div>
+
+      <br />
+      <div>
+        <label for="place_Of_Birth">Quê quán</label>
+        <select id="place_Of_Birth">
+          <option value="haiPhong">Hải Phòng</option>
+          <option value="haNoi">Hà Nội</option>
+          <option value="saiGon">Sài Gòn</option>
+          <option value="daNang">Đà Nẵng</option>
+          <option value="canTho">Cần Thơ</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <!-- <label for="mail">Email</label>
+        <input type="text" id="mail" /> -->
+
+        <input
+          type="text"
+          autocomplete="off"
+          required
+          name="mail"
+          placeholder="Email"
+        />
+      </div>
+      <br />
+      <div>
+        <input
+          type="text"
+          autocomplete="off"
+          required
+          name="Birthday"
+          placeholder="Ngày sinh"
+        />
+      </div>
+
+      <button><strong>Đăng kí</strong></button>
+      <hr style="border-top: 2px dotted black" />
+    </form>
+  </body>
+</html>
