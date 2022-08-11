@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  background-color: aquamarine;
+}
+.box {
+  margin: 0 30%;
+  width: 40%;
+  height: 1000px;
+  background-image: url("./image/img1.png");
+  background-size: cover;
+}
+p {
+  margin: 0;
+  background-color: rgba(223, 238, 135, 0.4);
+  height: 100px;
+  text-align: center;
+
+  font-weight: 800;
+  font-size: 60px;
+  color: rgb(116, 12, 201);
+}

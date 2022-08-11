@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.box{
+    margin: 0 30%;
+    width: 50%;
+    height: auto;
+    background-color: aqua;
+}
+
+.size-number{
+    color:#fff;
+    background-color: rgb(107, 91, 121);
+    font-size: 40px;
+    margin-left:  40%;
+    padding: 10px 30px;
+    width:fit-content;
+    text-align: center;
+}
+h1{
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.main-content{
+    font-size: 15px;
+}
+
+.button{
+    margin: 16px 6px;
+    padding: 10px 20px;
+    line-height: 1.6;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+}
+.page{
+    width: 50%;
+    height:60vh;
+    border: 5px solid ;
+    padding: 30px;
+}
+.sample{
+    color: white;
+    background-color: blue;
+    width:fit-content;
+}
+img{
+    border-radius: 20px;
+    padding: 0 200px;
+}
+.price-line{
+    background-color: rgb(66, 209, 85);
+    width: fit-content;
+    padding: 0 200px;
+}
+.price{
+    color:rgb(185, 17, 17);
+}
+.button{
+    width:100px;
+    height: 50px;
+    font-size: 30px;
+}
+.page:hover .sample{
+    background-color: red;
+    color: black;
+    font-size: 40px;
+}
+.page:hover .button{
+    background-color: aqua;
+    color: red;
+    font-size:40px;
+    width:40px;
+    height:40px;
+}
+.page:hover{
+    width: 60%;
+    height:70vh;
+    border: 5px solid ;
+    padding: 50px;
+    background-color: black;
+}
+.page

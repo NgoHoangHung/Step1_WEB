@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-container{
+    width: 800px;
+    height:600px;
+    background-color: rgb(77, 119, 209);
+    /* border: 1px solid white; */
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-item{
+    width: 50%;
+    height:80%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    line-height: 1.6;
+}
+.box-item-image_product{
+}
+.box-item_productInfo{
+
+}
+.box-item_nameAndPrice{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-item_nameLayout{
+    margin: 0;
+}
+.box-item_name:nth-child(1){
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+.box-item_name:nth-child(2){
+    color: gray;
+    font-size: 13px;
+}
+.box-item_price{
+    color: blue;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+.box-item_size{
+    font-size:13px;
+    font-weight:800;
+}
+.box-item-size_layout{
+    width: 150px;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+
+    align-items: center;
+}
+.box-item_size-option{
+    color: blue;
+    font-weight:800;
+}
+.box-item_size-option:nth-child(3){
+    background-color: blue;
+    color: white;
+    border-radius :50%;
+    padding:3px !important;  
+}
+.box-item-color{
+    font-weight: 700;
+    font-size: 13px;
+}
+.box-item-color_layout{
+    width:100px;
+    display: flex;
+    justify-content: space-around;
+    margin:5px;
+}
+.box-item-color-option:nth-child(1){
+    width: 20px;
+    height: 20px;
+    background-color:gray;
+    border-radius: 50%;
+    
+}
+.box-item-color-option:nth-child(2){
+    width: 20px;
+    height: 20px;
+    background-color:blue;
+    box-sizing:border-box;
+    border-radius: 50%;
+}
+.box-item-color-option:nth-child(3){
+    width: 20px;
+    height: 20px;
+    background-color:yellow;
+    border-radius: 50%;
+
+}
+.btn{
+    margin: auto;
+
+}
+
+.btn-item:nth-child(1){
+    color: white;
+    background: blue;    
+    font-weight: 700;
+    font-size: 18px;
+    padding:10px 20px;
+    text-transform: uppercase;
+}
+.btn-item:nth-child(2){
+    color: blue;
+    border:2px solid blue;    
+    background: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding:10px;
+    text-transform: uppercase;
+    padding:10px 20px;
+}

@@ -1,0 +1,52 @@
+li{
+    width: 20px;
+    height: 20px;   
+    border: 2px solid black;
+    margin : 30px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a1{
+    background-color:blue ;
+    color: red;
+}
+.a2{
+    background-color:green ;
+    color: black;
+}
+.a3{
+    background-color:aqua ;
+    color: black;
+}
+.a4{
+    background-color:red ;
+    color:black ;
+}
+.a5{
+    background-color:tomato ;
+    color: black;
+}
+
+.a1:hover{
+    background-color:tomato ;
+    color: black;
+}
+.a2:hover{
+    background-color:aqua ;
+    color: black;
+}
+.a3:hover{
+    background-color:green ;
+    color: black;
+}
+.a4:hover{
+    background-color:tomato ;
+    color: black;
+}
+.a5:hover{
+    background-color:red ;
+    color:black ;
+}

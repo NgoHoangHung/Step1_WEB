@@ -1,0 +1,49 @@
+    body{
+        background-color: aquamarine;
+    }
+    #page{
+        border: 5px solid ;
+        padding: 30px;
+    }
+    .sample{
+        color: white;
+        background-color: blue;
+        width:fit-content;
+    }
+    img{
+        border-radius: 20px;
+        padding: 0 200px;
+    }
+    .price-line{
+        background-color: rgb(66, 209, 85);
+        width: fit-content;
+        padding: 0 200px;
+    }
+    .price{
+        color:rgb(185, 17, 17);
+    }
+    #button{
+        width:100px;
+        height: 50px;
+        font-size: 30px;
+    }
+#font1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Courier, monospace;
+}
+.tieuDe{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+.content2{
+    font-weight: 700;
+}
+.quest{
+    font-style: italic;
+}
+.end{
+    text-align: right;
+}
+.end1{
+    font-weight: 700;
+}
