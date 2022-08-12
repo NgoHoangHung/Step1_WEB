@@ -1,0 +1,65 @@
+.container {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: calc(50vw - 150px);
+    border: 2px solod black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px;
+  }
+  .price {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    position: absolute;
+    right: 20px;
+    bottom: 217px;
+
+  }
+  .icon1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    box-shadow: rgba(50, 50, 93, 0.6) 0px 2px 5px -1px, rgba(0, 0, 0, 0.7) 0px 1px 3px -1px;
+
+    position: absolute;
+    right: 60px;
+    bottom: 217px;
+  }
+  .icon2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    position: absolute;
+    right: 100px;
+    bottom: 217px;
+  }
