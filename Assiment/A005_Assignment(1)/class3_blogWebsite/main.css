@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+.nav-bar{
+    background-color: rgb(36, 82, 207);
+    width: 100vw;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar_left{
+    width:25vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.blog-icon{
+    background-color: blue;
+    color: aliceblue;
+    width:120px;
+    height:120px;
+    border: 5px solid white;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+   
+}
+.search{
+}
+.nav-bar_left-content{
+    font-weight: 800;
+    font-size: 100px;
+}
+
+/* thanh bar ở giữa */
+.nav-bar_center{
+    width: 35vw;
+    display: flex; 
+    justify-content: space-around;
+    /* margin-left: -30vw; */
+}
+
+.nav-bar-item_center{
+    border-radius: 20px;
+    color:aqua ;
+    font-weight: 600;
+    padding: 10px;
+    background-color:blueviolet ;
+}
+.nav-bar_right{
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar-item_right{
+    width: 50px;
+    height:50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(58, 243, 16);
+}
