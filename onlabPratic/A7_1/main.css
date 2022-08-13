@@ -1,0 +1,19 @@
+p::selection{
+    background-color: aqua;
+    color: red;
+    font-weight: 800 ;
+}
+.decoration::before{
+    content:'\1F237';
+}
+
+
+.marker:nth-child(1)::marker{
+    content:'\2795'
+}
+.marker:nth-child(2)::marker{
+    content:'\2796'
+}
+.marker:nth-child(3)::marker{
+    content:'\2797'
+}
