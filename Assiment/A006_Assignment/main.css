@@ -1,16 +1,96 @@
-:root{
-    --surface-color:#fff;
-    --cueve:40;
-}
 *{
-    box-sizing: boderbox;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.cards{
+    display: flex;
+    width: 100vw;
+    height:200px;
+    margin: 100px 0;
+    justify-content: space-around;
+}
+.cards .card{
+    width: 15vw;
+}
+img.card__image{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    z-index: 0;
+}
+.card .card__overlay{
+    width: 350px;
+    height: 140px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+}
+.card:hover .card__overlay{
+    /* transform: translateY(-110%); */
+    height: 260px;
+    background-color: white;
+  }
+  .card:hover .card__arc{
+    transform: translateY(-220%);
+    background-color: rgb(249, 189, 198);
+    border-radius: 50%;
+    outline: none;
+  }
+  .card__arc path {
+    position: relative;
+    fill: rgb(249, 189, 198);
+    d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+    z-index: 2 !important;
+  } 
+.card__overlay .card__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img.card__thumb{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 50%;
+
+    /* position: absolute;
+    top */
+}
+h3 .card__title{
+    color: #D7BDCA;
 }
 
-.cards{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    gap: 2rem;
+
+.card__arc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 20%;
+    right: -40px;
+    z-index: 1;
+    background-color: rgb(249, 189, 198);
+    transform: translateY(-100%);
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+}
+.card__header .card__title{
+    color:#6A515E;
+    margin: 10px;
+    padding: 0;
+}
+.card__header  .card__status{
+    font-size: 20px;
+    color: #D7BDCA;
+}
+.card__tagline{
+    font-size: 20px;
+    color: #D7BDCA;   
+}
+.card__description{
+    color: #D7BDCA; 
+    margin-top: 45px;
+    font-size: 22px;
 }

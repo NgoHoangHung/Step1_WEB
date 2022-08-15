@@ -1,0 +1,56 @@
+*{
+    font-family:sans-serif ;
+}
+
+.container{
+    margin-top: 30px;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item1{
+    width: 20vw;
+}
+.chairBrown .item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contentMain{
+    text-align: center;
+}
+.contentMain .titleContent{color: rgb(74, 74, 74);}
+.contentMain .describe{
+    color: gray;
+}
+.item2{
+    width: 40vw;
+}
+.item2 .chairGray{
+    display: flex;
+}
+.contentGrayChair .contentMain {
+    padding-left: 20px;
+    text-align: left;
+    line-height: 1.3; 
+
+}
+.btns{
+    padding-top: 20px;
+
+}
+
+.item3{
+    width: 20vw;
+}
+h1.titleContent{
+    font-size: 26px;
+}
+.lamp{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
