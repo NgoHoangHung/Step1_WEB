@@ -21,7 +21,7 @@
     left:0;
     bottom:0;
     background-color:green;
-    transition: all ease 1s;
+    transition: all ease-in-out 1s;
 }
 
 .link::before{
@@ -33,7 +33,7 @@
     left: 0;
     top: 0;
     background-color:red;
-    transition:all ease 1s;
+    transition:all ease-in-out 1s;
 }
 .link:hover::before{
     height:100%;

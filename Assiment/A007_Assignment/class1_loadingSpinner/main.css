@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 100px;
+    background-image: url(./image/remu.png);
+    background-size: cover;
+}
+.loading-ring{
+    display:inline-block;
+    position: relative;
+    width: 800px;
+    height: 800px;
+    /* background: radial-gradient(#e5f89e, #96e001); */
+    animation: bground 1.2s infinite;
+    border-radius: 20%;
+}
+
+.loading-ring div {
+    position: absolute;
+    top:80px;
+    left:80px;
+    display: block;
+    width: 640px;
+    height: 640px;
+    border: 80px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+@keyframes bground{
+    0%{
+        background-color: black;
+        left: 80px;
+        top:    80px;
+
+    }
+    50%{
+        background-color: blue ;
+        left: 500px;
+        top: 80px;
+    }
+    100%{
+        background-color: aqua ;
+        left: 80px;
+        top: 80px;
+    }
+}
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+      background-color: red;
+    }
+
+/* 
+    25% {
+      transform: rotate(90deg);
+      background-color: orange;
+      transition: all;
+    }
+    50% {
+      transform: rotate(180deg);
+      background-color: green;
+    }
+    75% {
+      transform: rotate(270deg);
+      background-color: blue;
+    } */
+    100% {
+      transform: rotate(360deg);
+      background-color: violet;
+    }
+  }

@@ -48,7 +48,6 @@ img {
 .product__photo {
   position: relative;
 }
-
 .photo-container {
   position: absolute;
   left: -2.5em;
@@ -59,7 +58,6 @@ img {
   border-radius: 6px;
   box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
 }
-
 .photo-main {
   border-radius: 6px 6px 0 0;
   background-color: #9be010;
@@ -90,25 +88,24 @@ img {
   background-color: #fff;
 }
 .photo-album ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
-.photo-album li {
-    float: left;
-    width: 55px;
-    height: 55px;
-    padding: 7px;
-    border: 1px solid var(--color-secondary);
-    border-radius: 3px;
+.photo-album ul li {
+  float: left;
+  width: 55px;
+  height: 55px;
+  padding: 7px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 3px;
 }
 
 /* ----- Informations Section ----- */
 .product__info {
   padding: 0.8em 0;
 }
-
 .title h1 {
   margin-bottom: 0.1em;
   color: var(--color-primary);
@@ -167,17 +164,17 @@ img {
 
 .description ul {
   font-size: 0.8em;
-  list-style: disc;
+  list-style: none;
   margin-left: 1em;
 }
 
 .description li {
   text-indent: -0.6em;
   margin-bottom: 0.5em;
-   list-style-type: none;
 }
-.description li::before{
-    content: 'lol';
+
+.description li::before {
+  content: "\2705";
 }
 
 .buy--btn {
@@ -196,7 +193,7 @@ img {
   transform: scale(0.97);
 }
 
-/* ----- Footer Section ----- */
+/* ----- Footer Section -----  */
 footer {
   padding: 1em;
   text-align: center;
@@ -208,3 +205,4 @@ footer a {
 footer a:hover {
   color: var(--color-highlight);
 }
+
